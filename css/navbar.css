@@ -1,0 +1,48 @@
+.myNavbar {
+    background-color: rgb(83, 1, 1);
+    color: white;
+    margin: none;
+}
+
+.myNav {
+    color: white;
+    margin: auto;
+}
+
+.myNav li {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+}
+
+.myNav li a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.myNav .current,
+.myNav .current:hover{
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    border-bottom: px solid transparent;
+}
+
+.myNav:hover:after {
+  border-top: rgb(255, 0, 0);
+}
+
+.myNav .current:after {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid rgb(255, 0, 0);
+  content: " ";
+  position: absolute;
+  bottom: -15px;
+  left: 45%;
+}
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
