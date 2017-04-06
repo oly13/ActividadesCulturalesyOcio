@@ -1,4 +1,4 @@
-$('.myNav li').click(function() {
+$('a').click(function() {
   $('.current').removeClass('current');
   $(this).addClass('current');
 });

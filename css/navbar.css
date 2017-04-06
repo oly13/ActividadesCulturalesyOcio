@@ -18,6 +18,7 @@
 .myNav li a {
     color: white;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .myNav li a:hover {
@@ -52,11 +53,24 @@
 
 .sugerencias {
     padding-top: 130px;
-    padding-left: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 
 }
 
 .underline-bold {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.hr-black {
+    color: black;
+    background-color: black;
+    border-color: black;
+height: auto;
+}
+
+.buscador {
+    padding-left: 50px;
+    padding-right: 50px;
 }
