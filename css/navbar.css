@@ -9,12 +9,15 @@
     margin: auto;
 }
 
-.myNav li {
-    color: white;
-    font-weight: bold;
+.myNav li{
     margin: auto;
     border-style: solid;
     border-color: black;
+}
+
+.myNav li a {
+    color: white;
+    font-weight: bold;
 }
 
 .myNav li a:hover {
