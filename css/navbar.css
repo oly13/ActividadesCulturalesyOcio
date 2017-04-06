@@ -49,3 +49,14 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.sugerencias {
+    padding-top: 130px;
+    padding-left: 30px;
+
+}
+
+.underline-bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
