@@ -53,7 +53,6 @@
 }
 
 .sugerencias {
-    padding-top: 130px;
     padding-left: 50px;
     padding-right: 50px;
 
@@ -82,7 +81,7 @@ height: auto;
 }
 
 .centrado {
-    padding-top: 0 auto;
+    padding-top: 25%;
     text-align: center;
     display: block;
     margin: auto;
