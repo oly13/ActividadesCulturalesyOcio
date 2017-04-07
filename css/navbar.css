@@ -13,6 +13,7 @@
     margin: auto;
     border-style: solid;
     border-color: black;
+    color: aliceblue;
 }
 
 .myNav li a {
@@ -74,3 +75,4 @@ height: auto;
     padding-left: 50px;
     padding-right: 50px;
 }
+
