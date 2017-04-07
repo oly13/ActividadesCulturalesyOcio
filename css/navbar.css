@@ -75,13 +75,12 @@
     padding-right: 50px;
 }
 
-<<<<<<< HEAD
 #ex1Slider .slider-selection {
     background: #b23939;
-=======
+}
+
 .group-image {
     margin: inherit;
-
 }
 
 .centrado {
@@ -89,5 +88,10 @@
     text-align: center;
     display: block;
     margin: auto;
->>>>>>> origin/master
+}
+
+.verticalCenterSugerencias {
+    text-align: center;
+    position: relative;
+    top: 80px;
 }
