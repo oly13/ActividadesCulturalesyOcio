@@ -54,7 +54,6 @@
 }
 
 .sugerencias {
-    padding-top: 130px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -76,6 +75,19 @@
     padding-right: 50px;
 }
 
+<<<<<<< HEAD
 #ex1Slider .slider-selection {
     background: #b23939;
+=======
+.group-image {
+    margin: inherit;
+
+}
+
+.centrado {
+    padding-top: 25%;
+    text-align: center;
+    display: block;
+    margin: auto;
+>>>>>>> origin/master
 }
