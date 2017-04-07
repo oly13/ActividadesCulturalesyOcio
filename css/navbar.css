@@ -9,7 +9,7 @@
     margin: auto;
 }
 
-.myNav li{
+.myNav li {
     margin: auto;
     border-style: solid;
     border-color: black;
@@ -28,25 +28,26 @@
 }
 
 .myNav .current,
-.myNav .current:hover{
+.myNav .current:hover {
     background-color: rgb(255, 0, 0);
     text-decoration: none;
     border-bottom: px solid transparent;
 }
 
 .myNav:hover:after {
-  border-top: rgb(255, 0, 0);
+    border-top: rgb(255, 0, 0);
 }
 
 .myNav .current:after {
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid rgb(255, 0, 0);
-  content: " ";
-  position: absolute;
-  bottom: -15px;
-  left: 45%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(255, 0, 0);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
 }
+
 .nopadding {
     padding-left: 0;
     padding-right: 0;
@@ -56,7 +57,6 @@
     padding-top: 130px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .underline-bold {
@@ -68,10 +68,14 @@
     color: black;
     background-color: black;
     border-color: black;
-height: auto;
+    height: auto;
 }
 
 .buscador {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#ex1Slider .slider-selection {
+    background: #b23939;
 }
