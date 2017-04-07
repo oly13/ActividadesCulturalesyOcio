@@ -13,7 +13,6 @@
     margin: auto;
     border-style: solid;
     border-color: black;
-    color: aliceblue;
 }
 
 .myNav li a {
@@ -76,3 +75,7 @@ height: auto;
     padding-right: 50px;
 }
 
+
+.navbarLi {
+    color:red;
+}
