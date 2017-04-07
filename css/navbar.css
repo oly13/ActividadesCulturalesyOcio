@@ -75,3 +75,15 @@ height: auto;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.group-image {
+    margin: inherit;
+
+}
+
+.centrado {
+    padding-top: 0 auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
