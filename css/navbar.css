@@ -109,6 +109,19 @@
     height: 100%;
 }
 .prueba{
-    height: 200px
+    height: 200px;
     align-content: center;
+}
+.contenedor{
+    width: 700px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.cuadroDescripcionDetails{
+    width: 900px;
+}
+.posicionMapaDetails{
+    padding-left: 100px;
+    padding-right: 100px;
 }
