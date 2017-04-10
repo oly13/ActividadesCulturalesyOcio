@@ -2,6 +2,7 @@
     background-color: rgb(83, 1, 1);
     color: white;
     margin: none;
+    height: 100px;
 }
 
 .myNav {
@@ -56,6 +57,7 @@
 .sugerencias {
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 50px;
 }
 
 .underline-bold {
@@ -95,33 +97,44 @@
     position: relative;
     top: 80px;
 }
-.centradoVerticalDetail{
-    height: 200px;
+
+.centradoVerticalDetail {
+    height: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    align-content: center;
     text-align: center;
 }
-.estiloMapa{
+
+.estiloMapa {
     width: 100%;
     height: 100%;
+    margin-bottom: 30px;
 }
-.prueba{
+
+.prueba {
     height: 200px;
     align-content: center;
 }
-.contenedor{
+
+.contenedor {
     width: 700px;
     text-align: center;
     display: block;
     margin: auto;
 }
-.cuadroDescripcionDetails{
+
+.cuadroDescripcionDetails {
     width: 900px;
 }
-.posicionMapaDetails{
+
+.posicionMapaDetails {
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.marginLeftBar {
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
