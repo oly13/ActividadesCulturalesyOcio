@@ -138,3 +138,15 @@
     margin-bottom: 30px;
     margin-top: 50px;
 }
+
+.borderLeftNav {
+    border-color: rgb(83, 1, 1);
+    border-width: 10px;
+    border-radius: 0px;
+    border-right: solid;
+}
+
+.footerCustom {
+    background-color: rgb(83, 1, 1);
+    height: 200px;
+}
