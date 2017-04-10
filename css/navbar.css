@@ -138,7 +138,6 @@
     margin-bottom: 30px;
     margin-top: 50px;
 }
-<<<<<<< HEAD
 
 .borderLeftNav {
     border-color: rgb(83, 1, 1);
@@ -150,12 +149,23 @@
 .footerCustom {
     background-color: rgb(83, 1, 1);
     height: 200px;
-=======
-.carrouselToWapo{
+    max-width: inherit;
+    margin-bottom: none;
+}
+
+.carrouselToWapo {
     width: 100%;
     height: 100%;
 }
-.direccionDetails{
+
+.direccionDetails {
     width: 700px;
->>>>>>> origin/master
+}
+
+.btn-lg-custom {
+    padding: 14px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
 }
