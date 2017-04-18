@@ -11,11 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css">
     <link rel="stylesheet" href="../css/navbar.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../css/boostrap.min.css">    
-=======
     <link rel="stylesheet" href="../css/boostrap.min.css">
->>>>>>> 42bd6f23945ba851b30b9620286be52a65480c8e
     <link rel="stylesheet" href="../css/slider.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -42,21 +38,29 @@
                         <input class="form-control" id="focusedInput" type="text" placeholder="Nombre actividad...">
                     </div>
 
-                    <div class="form-group col-md-12">
-                        <label class="control-label" for="focusedInput">Precio:</label>
-                        <div class="button-slider">
-<<<<<<< HEAD
-                            
-=======
-
->>>>>>> 42bd6f23945ba851b30b9620286be52a65480c8e
-                                <div class="">
-                                    <div class="valueLabel">Desde 0€</div>
-                                    <input id="bootstrap-slider" type="text" data-slider-min="1" data-slider-max="200" data-slider-step="1" data-slider-value="25" />
-                                    <div class="valueLabel">Hasta <span id="sliderValue">25</span> €</div>
-                                </div>
-                        </div>
-
+                    <div class="well col-md-12">
+                        <p>Precio:</p>
+                        <div class="slider slider-horizontal" id="ex1Slider">
+                            <div class="slider-track">
+                                <div class="slider-track-low" style="left: 0px; width: 0%;"></div>
+                                <div class="slider-selection" style="left: 0%; width: 68%;"></div>
+                                <div class="slider-track-high" style="right: 0px; width: 32%;"></div>
+                            </div>
+                            <div class="tooltip tooltip-main top in" role="presentation" style="left: 68%; margin-left: -55px;">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner">Current value: 12</div>
+                            </div>
+                            <div class="tooltip tooltip-min top" role="presentation" style="display: none;">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner"></div>
+                            </div>
+                            <div class="tooltip tooltip-max top" role="presentation" style="display: none;">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner"></div>
+                            </div>
+                            <div class="slider-handle min-slider-handle round" role="slider" aria-valuemin="-5" aria-valuemax="20" aria-valuenow="12" aria-valuetext="Current value: 12" style="left: 68%;" tabindex="0"></div>
+                            <div class="slider-handle max-slider-handle round hide" role="slider" aria-valuemin="-5" aria-valuemax="20" aria-valuenow="-5" aria-valuetext="Current value: -5" style="left: 0%;" tabindex="0"></div>
+                        </div><input id="ex1" data-slider-id="ex1Slider" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="14" style="display: none;" data-value="12" value="12">
                     </div>
                     <div class="form-group col-md-12">
                         <label for="select" class="control-label">Población</label>
@@ -152,10 +156,10 @@
                     </div>
                     <div class="form-group btn-group-vertical">
                         <div class="col-md-12 col-md-offset-2">
-                            <a href="../results/resultsMadrid.html" class="btn btn-lg-custom btn-primary">Actualizar</a>
+                            <a type="submit" class="btn btn-lg-custom btn-primary">Actualizar</a>
                         </div>
                         <div class="col-md-12 col-md-offset-2" style="margin-top:15px">
-                            <a href="../index/musica.html" class="btn btn-lg-custom btn-primary">Pagina principal</a>
+                            <a href="index.html" class="btn btn-lg-custom btn-primary">Pagina principal</a>
                         </div>
                     </div>
                 </fieldset>
@@ -165,15 +169,15 @@
             <div class="row group marginLeftBar">
                 <div class="group-info verticalCenter">
                     <div class="col-sm-2">
-                        <img class="img-responsive center-block" alt="Concierto" src="../imgs/paSevilla.jpg">
+                        <img class="img-responsive center-block" alt="Concierto" src="/imgs/asiMeLasComo.jpg">
                     </div>
                     <div class="col-sm-6">
-                        <h1 class="group-name">David Bisbal en Sevilla</h1>
+                        <h1 class="group-name">Carlos Baute en Madrid</h1>
                         <span class="label label-primary">POP</span>
-                        <span class="label label-primary">Español</span>
-                        <span class="label label-primary">Sevilla</span>
+                        <span class="label label-primary">Latino</span>
+                        <span class="label label-primary">Madrid</span>
                         <hr>
-                        <div class="group-members">7644 asistentes</div>
+                        <div class="group-members">16537 asistentes</div>
                     </div>
                     <div class="col-sm-2">
                         <div class="centrado">
@@ -192,15 +196,15 @@
             <div class="row group">
                 <div class="group-info ">
                     <div class="col-sm-2">
-                        <img class="img-responsive center-block" alt="Concierto" src="../imgs/Siuuu.jpg">
+                        <img class="img-responsive center-block" alt="Concierto" src="/imgs/tePetaba.jpg">
                     </div>
                     <div class="col-sm-6">
-                        <h1 class="group-name">David Bisbal en Barcelona</h1>
+                        <h1 class="group-name">Ricky Martin en Madrid</h1>
                         <span class="label label-primary">POP</span>
-                        <span class="label label-primary">Español</span>
-                        <span class="label label-primary">Barcelona</span>
+                        <span class="label label-primary">Latino</span>
+                        <span class="label label-primary">Madrid</span>
                         <hr>
-                        <div class="group-members">10473 asistentes</div>
+                        <div class="group-members">13898 asistentes</div>
                     </div>
                     <div class="col-sm-2">
                         <div class="centrado">
@@ -219,10 +223,37 @@
             <div class="row group">
                 <div class="group-info verticalCenter">
                     <div class="col-sm-2">
-                        <img class="img-responsive center-block" alt="Concierto" src="../imgs/chicleEnPelo.jpg">
+                        <img class="img-responsive center-block" alt="Concierto" src="/imgs/claroQueSi.jpg">
                     </div>
                     <div class="col-sm-6">
-                        <a href="../details/davidMadrid.html">
+                        <h1 class="group-name">David Bustamante en Madrid</h1>
+                        <span class="label label-primary">POP</span>
+                        <span class="label label-primary">Español</span>
+                        <span class="label label-primary">Madrid</span>
+                        <hr>
+                        <div class="group-members">12129 asistentes</div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="centrado">
+                            <a href="#" class="btn btn-primary btn-sm">Detalles</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="centrado">
+                            <i class="fa fa-wheelchair fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
+                            <i class="fa fa-users fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
+                            <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row group">
+                <div class="group-info verticalCenter">
+                    <div class="col-sm-2">
+                        <img class="img-responsive center-block" alt="Concierto" src="/imgs/chicleEnPelo.jpg">
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="details.html">
                             <h1 class="group-name">David Bisbal en Madrid</h1>
                         </a>
                         <span class="label label-primary">POP</span>
@@ -230,33 +261,6 @@
                         <span class="label label-primary">Madrid</span>
                         <hr>
                         <div class="group-members">11533 asistentes</div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="centrado">
-                            <a href="#" class="btn btn-primary btn-sm">Detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-2">
-                        <div class="centrado">
-                            <i class="fa fa-wheelchair fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
-                            <i class="fa fa-users fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
-                            <i class="fa fa-music fa-3x" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row group">
-                <div class="group-info verticalCenter">
-                    <div class="col-sm-2">
-                        <img class="img-responsive center-block" alt="Concierto" src="../imgs/bamoDeBoda.jpg">
-                    </div>
-                    <div class="col-sm-6">
-                        <h1 class="group-name">David Bisbal en Bilbao</h1>
-                        <span class="label label-primary">POP</span>
-                        <span class="label label-primary">Español</span>
-                        <span class="label label-primary">Pais Vasco</span>
-                        <hr>
-                        <div class="group-members">4951 asistentes</div>
                     </div>
                     <div class="col-sm-2">
                         <div class="centrado">
