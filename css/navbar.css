@@ -2,6 +2,7 @@
     background-color: rgb(83, 1, 1);
     color: white;
     margin: none;
+    height: 100px;
 }
 
 .myNav {
@@ -9,7 +10,7 @@
     margin: auto;
 }
 
-.myNav li{
+.myNav li {
     margin: auto;
     border-style: solid;
     border-color: black;
@@ -28,25 +29,26 @@
 }
 
 .myNav .current,
-.myNav .current:hover{
+.myNav .current:hover {
     background-color: rgb(255, 0, 0);
     text-decoration: none;
     border-bottom: px solid transparent;
 }
 
 .myNav:hover:after {
-  border-top: rgb(255, 0, 0);
+    border-top: rgb(255, 0, 0);
 }
 
 .myNav .current:after {
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid rgb(255, 0, 0);
-  content: " ";
-  position: absolute;
-  bottom: -15px;
-  left: 45%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(255, 0, 0);
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
 }
+
 .nopadding {
     padding-left: 0;
     padding-right: 0;
@@ -55,7 +57,7 @@
 .sugerencias {
     padding-left: 50px;
     padding-right: 50px;
-
+    margin-top: 50px;
 }
 
 .underline-bold {
@@ -67,7 +69,7 @@
     color: black;
     background-color: black;
     border-color: black;
-height: auto;
+    height: auto;
 }
 
 .buscador {
@@ -75,9 +77,12 @@ height: auto;
     padding-right: 50px;
 }
 
+#ex1Slider .slider-selection {
+    background: #b23939;
+}
+
 .group-image {
     margin: inherit;
-
 }
 
 .centrado {
@@ -85,4 +90,83 @@ height: auto;
     text-align: center;
     display: block;
     margin: auto;
+}
+
+.verticalCenterSugerencias {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.centradoVerticalDetail {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.estiloMapa {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.prueba {
+    height: 200px;
+    align-content: center;
+}
+
+.contenedor {
+    width: 700px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.cuadroDescripcionDetails {
+    width: 900px;
+}
+
+.posicionMapaDetails {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.marginLeftBar {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.borderLeftNav {
+    border-color: rgb(83, 1, 1);
+    border-width: 10px;
+    border-radius: 0px;
+    border-right: solid;
+    margin-left: 30px;
+}
+
+.footerCustom {
+    background-color: rgb(83, 1, 1);
+    height: 200px;
+    max-width: inherit;
+    margin-bottom: none;
+}
+
+.carrouselToWapo {
+    width: 100%;
+    height: 100%;
+}
+
+.direccionDetails {
+    width: 700px;
+}
+
+.btn-lg-custom {
+    padding: 14px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 100%;
 }
