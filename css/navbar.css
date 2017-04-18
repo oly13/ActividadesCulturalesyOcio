@@ -24,8 +24,8 @@
 }
 
 .myNav li a:hover {
+    color: black;
     text-decoration: underline;
-    background-color: transparent;
 }
 
 .myNav .current,
@@ -75,10 +75,6 @@
 .buscador {
     padding-left: 50px;
     padding-right: 50px;
-}
-
-#ex1Slider .slider-selection {
-    background: #b23939;
 }
 
 .group-image {
@@ -170,3 +166,11 @@
     border-radius: 6px;
     width: 100%;
 }
+
+#ex1Slider .slider-selection {
+    background: #BABABA;
+}
+
+
+
+
