@@ -38,29 +38,17 @@
                         <input class="form-control" id="focusedInput" type="text" placeholder="Nombre actividad...">
                     </div>
 
-                    <div class="well col-md-12">
-                        <p>Precio:</p>
-                        <div class="slider slider-horizontal" id="ex1Slider">
-                            <div class="slider-track">
-                                <div class="slider-track-low" style="left: 0px; width: 0%;"></div>
-                                <div class="slider-selection" style="left: 0%; width: 68%;"></div>
-                                <div class="slider-track-high" style="right: 0px; width: 32%;"></div>
-                            </div>
-                            <div class="tooltip tooltip-main top in" role="presentation" style="left: 68%; margin-left: -55px;">
-                                <div class="tooltip-arrow"></div>
-                                <div class="tooltip-inner">Current value: 12</div>
-                            </div>
-                            <div class="tooltip tooltip-min top" role="presentation" style="display: none;">
-                                <div class="tooltip-arrow"></div>
-                                <div class="tooltip-inner"></div>
-                            </div>
-                            <div class="tooltip tooltip-max top" role="presentation" style="display: none;">
-                                <div class="tooltip-arrow"></div>
-                                <div class="tooltip-inner"></div>
-                            </div>
-                            <div class="slider-handle min-slider-handle round" role="slider" aria-valuemin="-5" aria-valuemax="20" aria-valuenow="12" aria-valuetext="Current value: 12" style="left: 68%;" tabindex="0"></div>
-                            <div class="slider-handle max-slider-handle round hide" role="slider" aria-valuemin="-5" aria-valuemax="20" aria-valuenow="-5" aria-valuetext="Current value: -5" style="left: 0%;" tabindex="0"></div>
-                        </div><input id="ex1" data-slider-id="ex1Slider" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="14" style="display: none;" data-value="12" value="12">
+                    <div class="form-group col-md-12">
+                        <label class="control-label" for="focusedInput">Precio:</label>
+                        <div class="button-slider">
+                            
+                                <div class="">
+                                    <div class="valueLabel">Desde 0€</div>
+                                    <input id="bootstrap-slider" type="text" data-slider-min="1" data-slider-max="200" data-slider-step="1" data-slider-value="25" />
+                                    <div class="valueLabel">Hasta <span id="sliderValue">25</span> €</div>
+                                </div>
+                        </div>
+
                     </div>
                     <div class="form-group col-md-12">
                         <label for="select" class="control-label">Población</label>
