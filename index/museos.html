@@ -7,18 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/blitzer/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/boostrap.min.css">
     <link rel="stylesheet" href="../css/slider.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/locale/af.js"></script>
-
     <script src="../js/tooltip.js"></script>
     <script src="../js/current.js"></script>
     <script src="../js/slider.js"></script>
@@ -131,15 +128,9 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="centrado">
-<<<<<<< HEAD
-                        <i class="fa fa-wheelchair fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
-                        <i class="fa fa-users fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
-                        <i class="fa fa-space-shuttle fa-3x" aria-hidden="true" style="padding-right: 15px;"></i>
-=======
                         <i class="fa fa-wheelchair fa-3x" aria-hidden="true" style="padding-right: 15px;" data-toggle="tooltip" data-placement="bottom" title="Acceso para personas con movilidad reducida"></i>
                         <i class="fa fa-users fa-3x" aria-hidden="true" style="padding-right: 15px;" data-toggle="tooltip" data-placement="bottom" title="Actividad grupal"></i>
                         <i class="fa fa-space-shuttle fa-3x" aria-hidden="true" style="padding-right: 15px;" data-toggle="tooltip" data-placement="bottom" title="Actividades relacionadas con el espacio"></i>
->>>>>>> 999648fd444fba1d02c53177affbdd972fad429f
                     </div>
                 </div>
             </div>
@@ -154,12 +145,12 @@
                 <legend>
                     <h3 class="underline-bold">Busqueda Personalizada:</h3>
                 </legend>
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <div class="form-group col-md-12">
                         <label class="control-label" for="focusedInput">Nombre actividad:</label>
                         <input class="form-control" id="focusedInput" type="text" placeholder="Nombre actividad...">
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="select" class="control-label">Población</label>
                         <div>
                             <select class="form-control" id="select">
@@ -221,7 +212,7 @@
                             <br>
                         </div>
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="form-group col-md-4">
                         <label for="select" class="control-label col-md-offset-1">Edad</label>
                         <div class="col-md-offset-1">
                             <select class="form-control" id="select">
@@ -235,6 +226,10 @@
                         </select>
                             <br>
                         </div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="select" class="control-label col-md-offset-1">Calendario</label>
+                        <input type="date" class="col-md-offset-1 form-control">
                     </div>
                     <div class="form-group col-md-6">
                         <label for="select" class="control-label">Tipo de actividad</label>
